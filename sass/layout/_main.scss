@@ -1,0 +1,68 @@
+.hero {
+    max-width: 50%;
+
+    h1 {
+        color: white;
+        font-family: $merriweather-font;
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        max-width: 80%;
+        color: $color-letters;
+        font-size: 21px;
+        margin-bottom: 28px;
+    }
+
+    .buttons {
+        margin-bottom: 100px;
+
+        a {
+            padding: 15px 55px;
+        }
+
+        a:first-child {
+            text-decoration: none;
+            background-color: $color-alternative;
+            color: white;
+            border-radius: 13px 13px 13px 0px;
+        }
+
+        a:first-child:hover {
+            background-color: white;
+            color: $color-alternative;
+            border-radius: 13px 13px 13px 0px;
+        }
+
+        a:last-child {
+            display: inline-flex;
+            gap: 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:last-child:hover {
+            display: inline-flex;
+            gap: 15px;
+            text-decoration: underline;
+            color: white;
+        }
+    }
+}
+
+.options {
+    display: flex;
+    max-width: 50%;
+    color: white;
+    gap: 40px;
+    margin-bottom: 25px;
+
+    div {
+        display: flex;
+        text-align: start;
+        align-items: center;
+        font-size: 18px;
+        gap: 10px;
+    }
+}
