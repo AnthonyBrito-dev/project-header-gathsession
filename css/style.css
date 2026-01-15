@@ -32,6 +32,12 @@ body {
   font-size: 70px;
   margin-bottom: 20px;
 }
+.hero img.principal-face {
+  position: absolute;
+  top: 120px;
+  left: 800px;
+  width: 800px;
+}
 .hero p {
   max-width: 80%;
   color: #95969B;
